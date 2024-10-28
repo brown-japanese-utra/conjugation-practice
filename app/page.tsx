@@ -28,7 +28,7 @@ export default function HomePage() {
       inputValue == encounterList[encounter].hiragana_answer ||
       inputValue == encounterList[encounter].kanji_answer
     ) {
-      console.log("Found the right answer!");
+      setEncounter(1);
     } else {
       console.log("Got the wrong answer!");
     }
@@ -50,13 +50,13 @@ export default function HomePage() {
         <Stack align="center">
           <Image
             alt="character"
-            src={encounterList[0].imageURL}
+            src={encounterList[encounter].imageURL}
             style={{
               objectFit: "contain",
             }}
             h={rem(65)}
           ></Image>
-          <Text>{encounterList[0].dialogue}</Text>
+          <Text>{encounterList[encounter].dialogue}</Text>
           <Group>
             <TextInput
               value={inputValue}
