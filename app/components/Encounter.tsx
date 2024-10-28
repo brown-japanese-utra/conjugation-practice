@@ -2,15 +2,18 @@
 export interface Encounter {
   imageURL: string;
   dialogue: string;
-  answer: string;
+  hiragana_answer: string;
+  kanji_answer: string;
 }
 
 /* Index into this list in page.tsx to switch between which encounter you see*/
 export const encounterList: Encounter[] = [
   {
     imageURL:
-      "https://i.pinimg.com/474x/af/d2/55/afd25562aaecf0a03847a70f8fdedd7b.jpg",
-    dialogue: "Hi I'm Gojo",
-    answer: "abc",
+      "https://dragonball.guru/wp-content/uploads/2021/03/goku-profile-e1616173641804-400x400.png",
+    dialogue:
+      "Goku needs your help to fight Frieza! The door only responds to polite speech, but Goku was raised in the mountains and forgot how to speak politely!! The password is “the door opens” What do you say?!?!?!?",
+    hiragana_answer: "ドアがあきます",
+    kanji_answer: "ドアが開きます",
   },
 ];

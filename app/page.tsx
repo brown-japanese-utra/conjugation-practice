@@ -11,6 +11,7 @@ import {
   TextInput,
   Group,
   Button,
+  rem,
 } from "@mantine/core";
 import { useState } from "react";
 import { Encounter, encounterList } from "./components/Encounter";
@@ -23,7 +24,10 @@ export default function HomePage() {
 
   /* Function for checking if the user's input matches the answer */
   const checkAnswer = () => {
-    if (inputValue == encounterList[encounter].answer) {
+    if (
+      inputValue == encounterList[encounter].hiragana_answer ||
+      inputValue == encounterList[encounter].kanji_answer
+    ) {
       console.log("Found the right answer!");
     } else {
       console.log("Got the wrong answer!");
@@ -48,12 +52,9 @@ export default function HomePage() {
             alt="character"
             src={encounterList[0].imageURL}
             style={{
-              width: "100%",
-              height: "70%",
-              maxWidth: "400px",
-              maxHeight: "500px",
               objectFit: "contain",
             }}
+            h={rem(65)}
           ></Image>
           <Text>{encounterList[0].dialogue}</Text>
           <Group>
