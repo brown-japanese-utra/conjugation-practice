@@ -9,7 +9,7 @@ export default function HomePage() {
       <Link href={{ pathname: "/story", query: { frame: 0 } }}>
         <Button>Story 1</Button>
       </Link>
-      <Link href={{ pathname: "/story", query: { frame: 16 } }}>
+      <Link href={{ pathname: "/story", query: { frame: 15 } }}>
         <Button>Story 2</Button>
       </Link>
     </Button.Group>

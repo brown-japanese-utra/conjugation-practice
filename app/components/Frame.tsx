@@ -24,8 +24,7 @@ export const frameList: Frame[] = [
   /* You got it wrong. Bobo stays asleep */
   {
     imageURL: "frames/frame-1.jpg",
-    dialogue:
-      "Oh no, Bobo didn't wake up! Think carefully, or Bobo may never get to school!",
+    dialogue: "Oh no, Bobo didn't wake up! Think carefully, or Bobo may never get to school!",
     type: "wrong",
   },
   /* You got it right. Bo has woken up! */
@@ -48,15 +47,13 @@ export const frameList: Frame[] = [
   /* You got it wrong. Bobo runs into the door */
   {
     imageURL: "frames/frame-4.jpg",
-    dialogue:
-      "Whoops! Bobo ran straight into the door... with another attempt, you can save them!",
+    dialogue: "Whoops! Bobo ran straight into the door... with another attempt, you can save them!",
     type: "wrong",
   },
   /* You got it right. Bobo is able to leave! */
   {
     imageURL: "frames/frame-5.jpg",
-    dialogue:
-      "Bobo made it out of their house! They're looking forward to the school day.",
+    dialogue: "Bobo made it out of their house! They're looking forward to the school day.",
     type: "right",
   },
   /* Bobo is talking to their friend about how how their phone fell today */
@@ -106,8 +103,7 @@ export const frameList: Frame[] = [
   /* Bobo has had a long day. They want some nice tea. Help them boil some water */
   {
     imageURL: "frames/frame-12.jpg",
-    dialogue:
-      "Bobo has had a long day. They want to have some tea before heading to bed. Help them boil some water.",
+    dialogue: "Bobo has had a long day. They want to have some tea before heading to bed. Help them boil some water.",
     hiragana_answer: "わかします",
     kanji_answer: "沸かします",
     prompt: "お湯を",
@@ -122,16 +118,14 @@ export const frameList: Frame[] = [
   /* You got it right. Bobo can finally go to bed! */
   {
     imageURL: "frames/frame-1.jpg",
-    dialogue:
-      "Great work! Bobo enjoys their hot tea and can finally go to bed.",
+    dialogue: "Great work! Bobo enjoys their hot tea and can finally go to bed.",
     type: "right",
   },
   /* STORY TWO (BOBO PLAYS A VIDEO GAME): つける、たすける、あがる、きこえる、けす*/
   /* Bobo wants to play a game, help them turn on the computer */
   {
     imageURL: "frames/frame-3.jpg",
-    dialogue:
-      "Bobo wants to play a new video game they bought. Help Bobo turn on their computer.",
+    dialogue: "Bobo wants to play a new video game they bought. Help Bobo turn on their computer.",
     hiragana_answer: "つけます",
     kanji_answer: "点けます",
     prompt: "コンピューターを",
@@ -139,15 +133,14 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. The computer is still off */
   {
-    imageURL: "frames/frame-2-1",
+    imageURL: "frames/frame-2-1.jpg",
     dialogue: "Bobo's computer didn't turn on. Please try again.",
     type: "wrong",
   },
   /* You got it right. Bobo's computer is on */
   {
     imageURL: "frames/frame-2-2.jpg",
-    dialogue:
-      "Great work! Bobo enjoys their hot tea and can finally go to bed.",
+    dialogue: "Great work! Bobo's computer has turned on successfully!",
     type: "right",
   },
   /* Bobo wants to save people to become a hero */
@@ -163,15 +156,13 @@ export const frameList: Frame[] = [
   /* You got it wrong. Bobo wasn't able to find anyone to rescue */
   {
     imageURL: "frames/frame-2-4.jpg",
-    dialogue:
-      "Oh no! You were incorrect. Bobo will be able to become a hero soon though!",
+    dialogue: "Oh no! You were incorrect. Bobo will be able to become a hero soon though!",
     type: "wrong",
   },
   /* You got it right. Bobo saves nearby villagers and gets applauded as a hero */
   {
     imageURL: "frames/frame-2-5.jpg",
-    dialogue:
-      "Amazing! Bobo was able to save nearby villagers and get applauded as a hero.",
+    dialogue: "Amazing! Bobo was able to save nearby villagers and get applauded as a hero.",
     type: "right",
   },
   /* Help Bobo level up */
@@ -233,15 +224,13 @@ export const frameList: Frame[] = [
   /* You got it wrong. Bobo wakes up */
   {
     imageURL: "frames/frame-0.jpg",
-    dialogue:
-      "You didn't turn off the lights correctly. Bobo groggily wakes up and tries to go back to sleep.",
+    dialogue: "You didn't turn off the lights correctly. Bobo groggily wakes up and tries to go back to sleep.",
     type: "wrong",
   },
   /* You got it right. Bobo gets fired up to fight the Demon King */
   {
     imageURL: "frames/frame-0.jpg",
-    dialogue:
-      "Well done! You turned the lights off and Bobo is able to sleep peacefully",
+    dialogue: "Well done! You turned the lights off and Bobo is able to sleep peacefully",
     type: "right",
   },
 ];
