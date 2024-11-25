@@ -197,7 +197,7 @@ export const frameList: Frame[] = [
   },
   /* Help Bobo defeat the demon king */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-2-9.jpg",
     dialogue:
       "Bobo is up against the final boss, the Demon King. They're too scared to fight him, but the villagers that Bobo saved earlier are cheering them on. Help Bobo be able to hear their voices.",
     hiragana_answer: "きこえます",
@@ -207,21 +207,21 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. The Demon King attacks Bobo */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-2-10.jpg",
     dialogue:
       "Bobo isn't able to muster up the courage to fight back, so the Demon King is able to land a hit on them.",
     type: "wrong",
   },
   /* You got it right. Bobo gets fired up to fight the Demon King */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-2-11.jpg",
     dialogue:
       "Incredible! Bobo was able to hear the villagers cheering them on, and is now fired up to fight the Demon King.",
     type: "right",
   },
   /* Turn off the light for Bobo so they can sleep */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-2-12.jpg",
     dialogue:
       "It looks like Bobo fell asleep as they were playing their game. But, the lights are still on, which make wake up Bobo. Help turn off the lights",
     hiragana_answer: "けします",
@@ -231,12 +231,12 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. Bobo wakes up */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-2-13.jpg",
     dialogue:
       "You didn't turn off the lights correctly. Bobo groggily wakes up and tries to go back to sleep.",
     type: "wrong",
   },
-  /* You got it right. Bobo gets fired up to fight the Demon King */
+  /* You got it right. Bobo can sleep */
   {
     imageURL: "frames/frame-0.jpg",
     dialogue:
