@@ -13,7 +13,7 @@ export const frameList: Frame[] = [
   /* STORY ONE (BOBO GOES TO SCHOOL): おとす、あける、おちる、わく、わかす
   /* Bobo is sleeping. Wake them up! */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-1-0.jpg",
     dialogue:
       "It's 7 AM, time for Bobo to wake up! They fell asleep holding their phone. Help drop the phone to wake up Bobo! You should conjugate the verb in the present tense polite form!",
     hiragana_answer: "おとします",
@@ -23,20 +23,21 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. Bobo stays asleep */
   {
-    imageURL: "frames/frame-1.jpg",
-    dialogue: "Oh no, Bobo didn't wake up! Think carefully, or Bobo may never get to school!",
+    imageURL: "frames/frame-1-1.jpg",
+    dialogue:
+      "Oh no, Bobo didn't wake up! Think carefully, or Bobo may never get to school!",
     type: "wrong",
   },
   /* You got it right. Bo has woken up! */
   {
-    imageURL: "frames/frame-2.jpg",
+    imageURL: "frames/frame-1-2.jpg",
     dialogue:
       "Alright, it's time to get out of bed. It'll be another great day at 棒人間高校 today! Bobo gets ready for class.",
     type: "right",
   },
   /* Bobo needs your help opening the door */
   {
-    imageURL: "frames/frame-3.jpg",
+    imageURL: "frames/frame-1-3.jpg",
     dialogue:
       "It's time to leave, but Bobo forgot how to open their door. They always get so confused with how it works! Help Bobo open the door by conjugating a verb in present polite form.",
     hiragana_answer: "あけます",
@@ -46,19 +47,21 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. Bobo runs into the door */
   {
-    imageURL: "frames/frame-4.jpg",
-    dialogue: "Whoops! Bobo ran straight into the door... with another attempt, you can save them!",
+    imageURL: "frames/frame-1-4.jpg",
+    dialogue:
+      "Whoops! Bobo ran straight into the door... with another attempt, you can save them!",
     type: "wrong",
   },
   /* You got it right. Bobo is able to leave! */
   {
-    imageURL: "frames/frame-5.jpg",
-    dialogue: "Bobo made it out of their house! They're looking forward to the school day.",
+    imageURL: "frames/frame-1-5.jpg",
+    dialogue:
+      "Bobo made it out of their house! They're looking forward to the school day.",
     type: "right",
   },
   /* Bobo is talking to their friend about how how their phone fell today */
   {
-    imageURL: "frames/frame-6.jpg",
+    imageURL: "frames/frame-1-6.jpg",
     dialogue:
       'Bobo is talking to their friend at school about how their phone fell on them this morning. Bobo is studying abroad, so they need some help remembering how to say "the phone fell" Conjugate the verb in past tense polite form!',
     hiragana_answer: "おちました",
@@ -68,19 +71,19 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. Bobo thinks it must be something else */
   {
-    imageURL: "frames/frame-7.jpg",
+    imageURL: "frames/frame-1-7.jpg",
     dialogue: "Bobo doesn't think that's quite right. Give it another try.",
     type: "wrong",
   },
   /* You got it right. Bobo succesfully conjugated the verb */
   {
-    imageURL: "frames/frame-8.jpg",
+    imageURL: "frames/frame-1-8.jpg",
     dialogue: "Great work! Bobo avoided conjugating the verb incorrectly.",
     type: "right",
   },
   /* Bobo is taking a test and the question is very specific */
   {
-    imageURL: "frames/frame-9.jpg",
+    imageURL: "frames/frame-1-9.jpg",
     dialogue:
       'Bobo has to take a test, and one of questions happens to be your speciality -- transtive and intransitive verbs! Help Bobo write, "the water boils" in present polite form.',
     hiragana_answer: "わきます",
@@ -90,20 +93,21 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. Bobo thinks it's something else */
   {
-    imageURL: "frames/frame-10.jpg",
+    imageURL: "frames/frame-1-10.jpg",
     dialogue: "Bobo doesn't think that's quite right. Give it another shot.",
     type: "wrong",
   },
   /* You got it right. Bobo will get the question correct now */
   {
-    imageURL: "frames/frame-11.jpg",
+    imageURL: "frames/frame-1-11.jpg",
     dialogue: "Awesome! Bobo got the question correct!",
     type: "right",
   },
   /* Bobo has had a long day. They want some nice tea. Help them boil some water */
   {
-    imageURL: "frames/frame-12.jpg",
-    dialogue: "Bobo has had a long day. They want to have some tea before heading to bed. Help them boil some water.",
+    imageURL: "frames/frame-1-12.jpg",
+    dialogue:
+      "Bobo has had a long day. They want to have some tea before heading to bed. Help them boil some water.",
     hiragana_answer: "わかします",
     kanji_answer: "沸かします",
     prompt: "お湯を",
@@ -111,21 +115,23 @@ export const frameList: Frame[] = [
   },
   /* You got it wrong. Bobo thinks it's something else */
   {
-    imageURL: "frames/frame-13.jpg",
+    imageURL: "frames/frame-1-13.jpg",
     dialogue: "Bobo doesn't think that's quite right. Try again.",
     type: "wrong",
   },
   /* You got it right. Bobo can finally go to bed! */
   {
-    imageURL: "frames/frame-1.jpg",
-    dialogue: "Great work! Bobo enjoys their hot tea and can finally go to bed.",
+    imageURL: "frames/frame-1-1.jpg",
+    dialogue:
+      "Great work! Bobo enjoys their hot tea and can finally go to bed.",
     type: "right",
   },
   /* STORY TWO (BOBO PLAYS A VIDEO GAME): つける、たすける、あがる、きこえる、けす*/
   /* Bobo wants to play a game, help them turn on the computer */
   {
-    imageURL: "frames/frame-3.jpg",
-    dialogue: "Bobo wants to play a new video game they bought. Help Bobo turn on their computer.",
+    imageURL: "frames/frame-1-3.jpg",
+    dialogue:
+      "Bobo wants to play a new video game they bought. Help Bobo turn on their computer.",
     hiragana_answer: "つけます",
     kanji_answer: "点けます",
     prompt: "コンピューターを",
@@ -156,13 +162,15 @@ export const frameList: Frame[] = [
   /* You got it wrong. Bobo wasn't able to find anyone to rescue */
   {
     imageURL: "frames/frame-2-4.jpg",
-    dialogue: "Oh no! You were incorrect. Bobo will be able to become a hero soon though!",
+    dialogue:
+      "Oh no! You were incorrect. Bobo will be able to become a hero soon though!",
     type: "wrong",
   },
   /* You got it right. Bobo saves nearby villagers and gets applauded as a hero */
   {
     imageURL: "frames/frame-2-5.jpg",
-    dialogue: "Amazing! Bobo was able to save nearby villagers and get applauded as a hero.",
+    dialogue:
+      "Amazing! Bobo was able to save nearby villagers and get applauded as a hero.",
     type: "right",
   },
   /* Help Bobo level up */
@@ -224,13 +232,15 @@ export const frameList: Frame[] = [
   /* You got it wrong. Bobo wakes up */
   {
     imageURL: "frames/frame-0.jpg",
-    dialogue: "You didn't turn off the lights correctly. Bobo groggily wakes up and tries to go back to sleep.",
+    dialogue:
+      "You didn't turn off the lights correctly. Bobo groggily wakes up and tries to go back to sleep.",
     type: "wrong",
   },
   /* You got it right. Bobo gets fired up to fight the Demon King */
   {
     imageURL: "frames/frame-0.jpg",
-    dialogue: "Well done! You turned the lights off and Bobo is able to sleep peacefully",
+    dialogue:
+      "Well done! You turned the lights off and Bobo is able to sleep peacefully",
     type: "right",
   },
 ];
