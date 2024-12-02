@@ -238,9 +238,127 @@ export const frameList: Frame[] = [
   },
   /* You got it right. Bobo can sleep */
   {
-    imageURL: "frames/frame-0.jpg",
+    imageURL: "frames/frame-1-0.jpg",
     dialogue:
       "Well done! You turned the lights off and Bobo is able to sleep peacefully",
+    type: "right",
+  },
+  /* STORY THREE (BOBO RUNS A RELAY RACE): 変える、うごかす、はじまる、うごく、あつめる */
+  /* Help convince Bobo to run the race */
+  {
+    imageURL: "frames/frame-3-0.jpg",
+    dialogue:
+      "It's sports day at Bobo's school. Bobo's friend wants them to enter a relay race but Bobo doesn't want to. Help Bobo's friend change their mind",
+    hiragana_answer: "かえます",
+    kanji_answer: "変えます",
+    prompt: "考えを",
+    type: "question",
+  },
+  /* You got it wrong. Bobo refuses to run */
+  {
+    imageURL: "frames/frame-3-1.jpg",
+    dialogue:
+      "It looks like you couldn't change Bobo's mind. Please try again.",
+    type: "wrong",
+  },
+  /* You got it right. Bobo accepts (begrudgingly) */
+  {
+    imageURL: "frames/frame-3-2.jpg",
+    dialogue:
+      "Well done! You were able to make Bobo accept their friend's request (begrudgingly).",
+    type: "right",
+  },
+  /* Bobo is training. Help them move the tire! */
+  {
+    imageURL: "frames/frame-3-3.jpg",
+    dialogue:
+      "Bobo won't be able to win this race without a training arc. They decide to do some training with a tire but they're struggling. Help them move the tire.",
+    hiragana_answer: "うごかします",
+    kanji_answer: "動かします",
+    prompt: "タイヤを",
+    type: "question",
+  },
+  /* You got it wrong. Bobo is getting tired */
+  {
+    imageURL: "frames/frame-3-4.jpg",
+    dialogue:
+      "It looks like you didn't help Bobo. They're getting tired from this tough training!",
+    type: "wrong",
+  },
+  /* You got it right. Bobo succesfully finished their training arc */
+  {
+    imageURL: "frames/frame-3-5.jpg",
+    dialogue:
+      "Good job! Bobo has finished up their mini training arc and is ready to win this race.",
+    type: "right",
+  },
+  /* Start the race */
+  {
+    imageURL: "frames/frame-3-6.jpg",
+    dialogue:
+      "After the training arc, Bobo and the other racers get ready at their starting positions. Bobo will be the team's anchor. Help begin the race",
+    hiragana_answer: "はじまります",
+    kanji_answer: "始まります",
+    prompt: "レースが",
+    type: "question",
+  },
+  /* You got it wrong. Bobo doesn't think that's quite right */
+  {
+    imageURL: "frames/frame-1-3.jpg",
+    dialogue: "Bobo doesn't think that's quite right. Please try again.",
+    type: "wrong",
+  },
+  /* You got it right. The race has started */
+  {
+    imageURL: "frames/frame-3-8.jpg",
+    dialogue: "Awesome! You got it right. The race has begun.",
+    type: "right",
+  },
+  /* Get Bobo to move faster */
+  {
+    imageURL: "frames/frame-3-9.jpg",
+    dialogue:
+      "After the training arc, Bobo and the other racers get ready at their starting positions. Bobo will be the team's anchor. Help begin the race",
+    hiragana_answer: "うごきます",
+    kanji_answer: "動きます",
+    prompt: "ぼぼが早く",
+    type: "question",
+  },
+  /* You got it wrong. Bobo struggles to catch up */
+  {
+    imageURL: "frames/frame-3-10.jpg",
+    dialogue: "Bobo struggles to catch up. They're still moving too slow!",
+    type: "wrong",
+  },
+  /* You got it right. Bobo speeds up like the Flash and wins */
+  {
+    imageURL: "frames/frame-3-11.jpg",
+    dialogue:
+      "Wow! Bobo flies through the rest of the race and manages to secure a victory!",
+    type: "right",
+  },
+  /* Bobo is tired. Gather their friends to help them celebrate */
+  {
+    imageURL: "frames/frame-3-12.jpg",
+    dialogue:
+      "Bobo is exhausted after the race. Gather Bobo's friends to help them celebrate!",
+    hiragana_answer: "あつめます",
+    kanji_answer: "集めます",
+    prompt: "友達を",
+    type: "question",
+  },
+  /* You got it wrong. Bobo is about to collapse from exhaustion */
+  {
+    imageURL: "frames/frame-3-13.jpg",
+    dialogue:
+      "You didn't gather Bobo's friends. Bobo is about to fall asleep from exhaustion.",
+    type: "wrong",
+  },
+  /* You got it right. Bobo's friends gather to help them celebrate */
+  {
+    imageURL: "frames/frame-3-11.jpg",
+    dialogue:
+      "Congratulations! You successfully gathered Bobo's friends to help them celebrate a well-deserved victory. Bobo can't wait to see what their next adventure holds.",
     type: "right",
   },
 ];
