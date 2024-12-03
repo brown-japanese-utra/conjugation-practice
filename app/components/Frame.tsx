@@ -318,7 +318,7 @@ export const frameList: Frame[] = [
   {
     imageURL: "frames/frame-3-9.jpg",
     dialogue:
-      "After the training arc, Bobo and the other racers get ready at their starting positions. Bobo will be the team's anchor. Help begin the race",
+      "After a few minutes, it's Bobo's turn to run. However, Bobo is just behind second place. Help them move faster to win.",
     hiragana_answer: "うごきます",
     kanji_answer: "動きます",
     prompt: "ぼぼが早く",
@@ -356,7 +356,7 @@ export const frameList: Frame[] = [
   },
   /* You got it right. Bobo's friends gather to help them celebrate */
   {
-    imageURL: "frames/frame-3-11.jpg",
+    imageURL: "frames/frame-2-5.jpg",
     dialogue:
       "Congratulations! You successfully gathered Bobo's friends to help them celebrate a well-deserved victory. Bobo can't wait to see what their next adventure holds.",
     type: "right",

@@ -12,6 +12,9 @@ export default function HomePage() {
       <Link href={{ pathname: "/story", query: { frame: 15 } }}>
         <Button>Story 2</Button>
       </Link>
+      <Link href={{ pathname: "/story", query: { frame: 30 } }}>
+        <Button>Story 3</Button>
+      </Link>
     </Button.Group>
   );
 }
