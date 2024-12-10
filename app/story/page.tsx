@@ -9,6 +9,7 @@ function StoryStuff() {
   /* States for frame (that will be the initial question or the correct/wrong answer screen), 
   and input value for textbox */
   const searchParams = useSearchParams();
+  console.log("got params");
   const initialFrame = parseInt(searchParams.get("frame") ?? "0");
   const [frame, setFrame] = useState(initialFrame);
   const [inputValue, setInputValue] = useState("");
@@ -134,7 +135,7 @@ function StoryStuff() {
 }
 
 export default function Story() {
-  <Suspense>
+  <Suspense fallback={<div>Loading...</div>}>
     <StoryStuff />
   </Suspense>;
 }
