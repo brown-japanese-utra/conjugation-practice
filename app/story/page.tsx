@@ -135,7 +135,9 @@ function StoryStuff() {
 }
 
 export default function Story() {
-  <Suspense fallback={<div>Loading...</div>}>
-    <StoryStuff />
-  </Suspense>;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <StoryStuff />
+    </Suspense>
+  );
 }
