@@ -1,11 +1,11 @@
 "use client";
 
 import { Center, Space, Image, Text, Grid, Stack, Container, TextInput, Group, Button, rem } from "@mantine/core";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Frame, frameList } from "../components/Frame";
 import { useSearchParams } from "next/navigation";
 
-export default function Story() {
+function StoryStuff() {
   /* States for frame (that will be the initial question or the correct/wrong answer screen), 
   and input value for textbox */
   const searchParams = useSearchParams();
@@ -131,4 +131,10 @@ export default function Story() {
       </Stack>
     </Container>
   );
+}
+
+export default function Story() {
+  <Suspense>
+    <StoryStuff />
+  </Suspense>;
 }
