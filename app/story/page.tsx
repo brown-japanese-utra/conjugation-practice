@@ -80,7 +80,9 @@ function StoryStuff() {
     let answer = frameList[frame - 1].prompt! + frameList[frame - 1].hiragana_answer!;
     switch (attemptsLeft) {
       case 0:
-        return "Oh no! You ran out of tries, but luckily Bobo found the right answer: " + answer + "！ がんばってね！";
+        return (
+          "Oh no! You ran out of tries, but luckily Bobo found the right answer: \n" + answer + "！ がんばってね！"
+        );
       case 1:
         return "You have 1 try left!";
       default:
