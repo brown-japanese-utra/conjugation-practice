@@ -4,12 +4,12 @@ import { Center, Space, Image, Text, Grid, Stack, Container, TextInput, Group, B
 import { Suspense, useEffect, useState } from "react";
 import { Frame, frameList } from "../components/Frame";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 
 function StoryStuff() {
   /* States for frame (that will be the initial question or the correct/wrong answer screen), 
   and input value for textbox */
   const searchParams = useSearchParams();
-  console.log("got params");
   const initialFrame = parseInt(searchParams.get("frame") ?? "0");
   const [frame, setFrame] = useState(initialFrame);
   const [inputValue, setInputValue] = useState("");
@@ -112,6 +112,9 @@ function StoryStuff() {
   */
   return (
     <Container size="sm" style={{ textAlign: "center" }}>
+      <Link href={{ pathname: "/" }} style={{ textDecoration: "none" }}>
+        <Button>Home</Button>
+      </Link>
       <Text size="xl" ta="right">
         Score: {score}
       </Text>
@@ -127,7 +130,9 @@ function StoryStuff() {
             onChange={(event) => setInputValue(event.currentTarget.value)}
             display={isResultScreen ? "none" : ""}
           />
-          <Button onClick={handleClick}>{displayButtonText()}</Button>
+          <Button onClick={handleClick} display={frame % 15 === 14 ? "none" : ""}>
+            {displayButtonText()}
+          </Button>
         </Group>
       </Stack>
     </Container>
